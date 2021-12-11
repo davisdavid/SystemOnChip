@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="CR5app_system-bitFile" value="${project_loc:CR5app}/_ide/bitstream/CR5xsa.bit"/>
+	<item key="CR5app_system-bmmFile" value="${project_loc:CR5app}/_ide/bitstream/CR5xsa.mmi"/>
+	<item key="CR5app_system-target" value="Local"/>
+	<item key="CR5app_system-device" value="Auto Detect"/>
+	<item key="CR5app_system-partial_bit" value="false"/>
+	<item key="CR5app_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="CR5app_system"/>
+	<item key="CR5app_system-microblaze_I-initElf" value="C:\Users\david_davis1\workspace\CR5app\Debug\CR5app.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys4DDR 210292A4BA3EA&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys4DDR-210292A4BA3EA-13631093-0&quot;}}]}"/>
+</section>

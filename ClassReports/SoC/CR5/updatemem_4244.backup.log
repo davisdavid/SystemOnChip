@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# updatemem v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# 
+# Start of session at: Wed Dec  1 15:41:22 2021
+# Process ID: 4244
+# Current directory: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5
+# Command line: updatemem.exe -mode batch -source C:/XilinxVitis/Vitis/2021.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/CR5xsa.mmi -data C:\Users\david_davis1\workspace\CR5app\Debug\CR5app.elf -proc cpu_unit/inst/microblaze_I -bit C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/CR5xsa.bit -out C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/download.bit -force
+# Log file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5/updatemem.log
+# Journal file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5\updatemem.jou
+#-----------------------------------------------------------
+source C:/XilinxVitis/Vitis/2021.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/CR5xsa.mmi -data {C:\Users\david_davis1\workspace\CR5app\Debug\CR5app.elf} -proc cpu_unit/inst/microblaze_I -bit C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/CR5xsa.bit -out C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/download.bit -force
+Loading bitfile C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/CR5xsa.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Bitstream compression saved 21319712 bits.
+Writing bitstream C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/download.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1318.551 ; gain = 798.895
+INFO: [Common 17-206] Exiting updatemem at Wed Dec  1 15:41:33 2021...

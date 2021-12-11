@@ -1,0 +1,27 @@
+15:50:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\david_davis1\workspaceCR3test\temp_xsdb_launch_script.tcl
+15:50:27 INFO  : Registering command handlers for Vitis TCF services
+15:50:27 INFO  : Platform repository initialization has completed.
+15:50:30 INFO  : XSCT server has started successfully.
+15:50:30 INFO  : Successfully done setting XSCT server connection channel  
+15:50:30 INFO  : plnx-install-location is set to ''
+15:50:30 INFO  : Successfully done query RDI_DATADIR 
+15:50:30 INFO  : Successfully done setting workspace for the tool. 
+15:50:58 INFO  : Result from executing command 'getProjects': test
+15:50:58 INFO  : Result from executing command 'getPlatforms': 
+15:52:04 INFO  : Result from executing command 'getProjects': test
+15:52:04 INFO  : Result from executing command 'getPlatforms': test|C:/Users/david_davis1/workspaceCR3test/test/export/test/test.xpfm
+15:52:04 INFO  : Checking for BSP changes to sync application flags for project 'testapp'...
+15:52:50 INFO  : Bit file 'C:/Users/david_davis1/workspaceCR3test/testapp/_ide/bitstream/download.bit' is generated.
+15:52:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:52:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4BA3EA" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4BA3EA-13631093-0"}' command is executed.
+15:52:55 INFO  : Device configured successfully with "C:/Users/david_davis1/workspaceCR3test/testapp/_ide/bitstream/download.bit"
+16:01:28 INFO  : Checking for BSP changes to sync application flags for project 'testapp'...
+16:01:53 INFO  : Bit file 'C:/Users/david_davis1/workspaceCR3test/testapp/_ide/bitstream/download.bit' is generated.
+16:01:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:01:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4BA3EA" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4BA3EA-13631093-0"}' command is executed.
+16:01:54 INFO  : Device configured successfully with "C:/Users/david_davis1/workspaceCR3test/testapp/_ide/bitstream/download.bit"
+16:02:21 INFO  : Checking for BSP changes to sync application flags for project 'testapp'...
+16:02:41 INFO  : Bit file 'C:/Users/david_davis1/workspaceCR3test/testapp/_ide/bitstream/download.bit' is generated.
+16:02:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:02:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4BA3EA" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A4BA3EA-13631093-0"}' command is executed.
+16:02:42 INFO  : Device configured successfully with "C:/Users/david_davis1/workspaceCR3test/testapp/_ide/bitstream/download.bit"

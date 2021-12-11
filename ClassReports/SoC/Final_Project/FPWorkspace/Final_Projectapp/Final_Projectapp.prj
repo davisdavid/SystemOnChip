@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Final_Projectapp" location="C:/Users/david_davis1/Box/SoC/ClassReports/SoC/Final_Project/FPWorkspace/Final_Projectapp" platform="C:/Users/david_davis1/Box/SoC/ClassReports/SoC/Final_Project/FPWorkspace/Final_Project/export/Final_Project/Final_Project.xpfm" platformUID="xilinx:nexys4_ddr::0.0(custom)" systemProject="Final_Projectapp_system" sysConfig="Final_Project" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_I" os="standalone" language="CPP" mssSignature="4fc79f7a87c79ac6fb857715281cfcf9">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.667071438">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1678368025" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

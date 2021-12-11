@@ -1,0 +1,21 @@
+00:27:04 **** Incremental Build of configuration Debug for project Final_Projectapp ****
+make all 
+'Building file: ../src/main_sampler_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_sampler_test.o" -IC:/Users/david_davis1/Box/SoC/ClassReports/SoC/Final_Project/FPWorkspace/Final_Project/export/Final_Project/sw/Final_Project/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_sampler_test.d" -MT"src/main_sampler_test.o" -o "src/main_sampler_test.o" "../src/main_sampler_test.cpp"
+'Finished building: ../src/main_sampler_test.cpp'
+' '
+'Building target: Final_Projectapp.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/david_davis1/Box/SoC/ClassReports/SoC/Final_Project/FPWorkspace/Final_Project/export/Final_Project/sw/Final_Project/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Final_Projectapp.elf"  ./src/chu_init.o ./src/gpio_cores.o ./src/main_sampler_test.o ./src/morse_code_table.o ./src/sseg_core.o ./src/timer_core.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Final_Projectapp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Final_Projectapp.elf  |tee "Final_Projectapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12492	    284	   3160	  15936	   3e40	Final_Projectapp.elf
+'Finished building: Final_Projectapp.elf.size'
+' '
+
+00:27:05 Build Finished (took 1s.58ms)
+

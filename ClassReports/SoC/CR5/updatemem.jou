@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# 
+# Start of session at: Wed Dec  1 15:42:03 2021
+# Process ID: 26068
+# Current directory: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5
+# Command line: updatemem.exe -mode batch -source C:/XilinxVitis/Vitis/2021.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/CR5xsa.mmi -data C:\Users\david_davis1\workspace\CR5app\Debug\CR5app.elf -proc cpu_unit/inst/microblaze_I -bit C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/CR5xsa.bit -out C:/Users/david_davis1/workspace/CR5app/_ide/bitstream/download.bit -force
+# Log file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5/updatemem.log
+# Journal file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5\updatemem.jou
+#-----------------------------------------------------------
+source C:/XilinxVitis/Vitis/2021.1/scripts/updatemem/main.tcl -notrace

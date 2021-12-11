@@ -1,0 +1,10 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/david_davis1/Box/SoC/ClassReports/CR2/CR2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/david_davis1/Box/SoC/ClassReports/mysseg/mysseg.srcs/sources_1/new/counter.sv,1631045215,systemVerilog,,C:/Users/david_davis1/Downloads/pass.sv,,counter,,uvm,,,,,,
+C:/Users/david_davis1/Box/SoC/ClassReports/mysseg/mysseg.srcs/sources_1/new/main.sv,1632258148,systemVerilog,,,,main,,uvm,,,,,,
+C:/Users/david_davis1/Box/SoC/ClassReports/mysseg/mysseg.srcs/sources_1/new/ssegdrv.sv,1631227756,systemVerilog,,C:/Users/david_davis1/Box/SoC/ClassReports/mysseg/mysseg.srcs/sources_1/new/main.sv,,ssegdrv,,uvm,,,,,,
+C:/Users/david_davis1/Downloads/ch05_06_db_fsm.sv,1632256705,systemVerilog,,C:/Users/david_davis1/Box/SoC/ClassReports/mysseg/mysseg.srcs/sources_1/new/counter.sv,,db_fsm,,uvm,,,,,,
+C:/Users/david_davis1/Downloads/pass.sv,1632256704,systemVerilog,,C:/Users/david_davis1/Box/SoC/ClassReports/mysseg/mysseg.srcs/sources_1/new/ssegdrv.sv,,pass,,uvm,,,,,,

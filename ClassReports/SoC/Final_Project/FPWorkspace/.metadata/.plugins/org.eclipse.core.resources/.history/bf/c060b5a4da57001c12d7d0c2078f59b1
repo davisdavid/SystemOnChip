@@ -1,0 +1,84 @@
+  #include "morse_code_table.h"
+
+  // Function definition
+  int decipher(int a)
+  {
+	  int code;
+      switch(a){
+      case 51: code = 10; //a
+      	  	  break;
+      case 1115: code = 3;//b
+      	  	  break;
+      case 1515: code = 12;//c
+      	  	  break;
+      case 115: code = 13; //d
+      	  	  break;
+      case 1: code = 14; //e
+      	  	  break;
+      case 1511: //f
+      	  	  break;
+      case 155: //g
+      	  	  break;
+      case 1111: //h
+      	  	  break;
+      case 11: //i
+      	  	  break;
+      case 5551: //j
+      	  	  break;
+      case 515: //k
+      	  	  break;
+      case 1151: //l
+      	  	  break;
+      case 55: //m
+      	  	  break;
+      case 15: //n
+      	  	  break;
+      case 555: //o
+      	  	  break;
+      case 1551: //p
+      	  	  break;
+      case 5155: //q
+      	  	  break;
+      case 151: //r
+      	  	  break;
+      case 111: //s
+      	  	  break;
+      case 5: //t
+      	  	  break;
+      case 511: //u
+      	  	  break;
+      case 5111: //v
+      	  	  break;
+      case 551: code = 1; //w
+      	  	  break;
+      case 5115: //x
+      	  	  break;
+      case 5515: //y
+      	  	  break;
+      case 1155: //z
+			  break;
+//      case 1155: //0
+//			  break;
+//      case 1155: //1
+//			  break;
+//      case 1155: //2
+//			  break;
+//      case 1155: //3
+//			  break;
+//      case 1155: //4
+//			  break;
+//      case 1155: //5
+//			  break;
+//      case 1155: code = 2; //6
+//			  break;
+//      case 1155: //7
+//			  break;
+//      case 1155: //8
+//			  break;
+//      case 1155: //9
+//			  break;
+      default: code = 0;
+    	  	  break;
+      }
+      return code;
+  }

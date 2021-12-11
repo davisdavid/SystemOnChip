@@ -1,0 +1,21 @@
+2021-11-19T15:19:15.838138200255-15:19:15 **** Incremental Build of configuration Debug for project CR4app ****
+000-make all 
+000-'Building file: ../src/main_vanilla_test.cpp'
+000-'Invoking: MicroBlaze g++ compiler'
+000-mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -IC:/Users/david_davis1/workspaceCR4/CR4/export/CR4/sw/CR4/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+000-'Finished building: ../src/main_vanilla_test.cpp'
+000-' '
+000-'Building target: CR4app.elf'
+000-'Invoking: MicroBlaze g++ linker'
+000-mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/david_davis1/workspaceCR4/CR4/export/CR4/sw/CR4/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CR4app.elf"  ./src/chu_init.o ./src/gpio_cores.o ./src/main_vanilla_test.o ./src/timer_core.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+000-'Finished building target: CR4app.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size CR4app.elf  |tee "CR4app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  14476	    284	   3152	  17912	   45f8	CR4app.elf
+000-'Finished building: CR4app.elf.size'
+000-' '
+00255-
+15:19:16 Build Finished (took 682ms)
+

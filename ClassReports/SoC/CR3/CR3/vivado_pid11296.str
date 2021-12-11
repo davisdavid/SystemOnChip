@@ -1,0 +1,153 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 11296
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Nov 18 17:05:20 CST 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/XilinxVitis/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/XilinxVitis/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	David_Davis1
+User home directory: C:/Users/david_davis1
+User working directory: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/XilinxVitis/Vivado
+HDI_APPROOT: C:/XilinxVitis/Vivado/2021.1
+RDI_DATADIR: C:/XilinxVitis/Vivado/2021.1/data
+RDI_BINDIR: C:/XilinxVitis/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/david_davis1/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/david_davis1/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/david_davis1/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/XilinxVitis/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/vivado.log
+Vivado journal file: 	C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/vivado.jou
+Engine tmp dir: 	C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/.Xil/Vivado-11296-ROG-115-09
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/XilinxVitis/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/XilinxVitis/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/XilinxVitis/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/XilinxVitis/Vivado/2021.1
+XILINX_SDK: C:/XilinxVitis/Vitis/2021.1
+XILINX_VITIS: C:/XilinxVitis/Vitis/2021.1
+XILINX_VIVADO: C:/XilinxVitis/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/XilinxVitis/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,276 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 89 MB (+90668kb) [00:00:07]
+// [Engine Memory]: 1,276 MB (+1186880kb) [00:00:07]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\david_davis1\Box\SoC\ClassReports\SoC\CR3\CR3\CR3.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,276 MB. GUI used memory: 61 MB. Current time: 11/18/21, 5:05:21 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: LOAD_FEATURE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,276 MB. GUI used memory: 58 MB. Current time: 11/18/21, 5:05:47 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/XilinxVitis/Vivado/2021.1/data/ip'. INFO: [Device 21-403] Loading part xc7a100tcsg324-1 
+// Tcl Message: ERROR: [Common 17-53] User Exception: No open project. Please create or open a project before executing this command. ERROR: [IP_Flow 19-3475] Tcl error in init_params procedure for IP 'cpu'. ERROR: [Common 17-53] User Exception: No open project. Please create or open a project before executing this command.  
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 99 MB (+5942kb) [00:00:53]
+// [GUI Memory]: 114 MB (+10949kb) [00:00:53]
+// [Engine Memory]: 1,359 MB (+19284kb) [00:00:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  12102 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,370 MB. GUI used memory: 73 MB. Current time: 11/18/21, 5:06:05 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1501.637 ; gain = 186.398 
+// Tcl Message: ERROR: [Common 17-39] 'open_project' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'open_project' failed due to earlier errors.  
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// a (cs): Critical Messages: addNotify
+// [GUI Memory]: 138 MB (+19092kb) [00:01:03]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2); // D
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 8 seconds
+// [GUI Memory]: 152 MB (+6950kb) [00:01:24]
+dismissDialog("Launch Runs"); // cD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'xadc_fpro'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: MSGMGR_REFRESH_MSG

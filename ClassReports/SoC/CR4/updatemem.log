@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# updatemem v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# 
+# Start of session at: Mon Dec  6 23:23:21 2021
+# Process ID: 21308
+# Current directory: c:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR4
+# Command line: updatemem.exe -mode batch -source C:/XilinxVitis/Vitis/2021.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/Final_Projectxsa.mmi -data C:\Users\david_davis1\workspace\Final_Projectapp\Debug\Final_Projectapp.elf -proc cpu_unit/inst/microblaze_I -bit C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/Final_Projectxsa.bit -out C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/download.bit -force
+# Log file: c:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR4/updatemem.log
+# Journal file: c:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR4\updatemem.jou
+#-----------------------------------------------------------
+source C:/XilinxVitis/Vitis/2021.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/Final_Projectxsa.mmi -data {C:\Users\david_davis1\workspace\Final_Projectapp\Debug\Final_Projectapp.elf} -proc cpu_unit/inst/microblaze_I -bit C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/Final_Projectxsa.bit -out C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/download.bit -force
+Loading bitfile C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/Final_Projectxsa.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Bitstream compression saved 23339040 bits.
+Writing bitstream C:/Users/david_davis1/workspace/Final_Projectapp/_ide/bitstream/download.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1364.570 ; gain = 845.320
+INFO: [Common 17-206] Exiting updatemem at Mon Dec  6 23:23:29 2021...

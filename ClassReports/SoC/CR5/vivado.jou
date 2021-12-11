@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Dec  1 14:34:00 2021
+# Process ID: 1560
+# Current directory: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18780 C:\Users\david_davis1\Box\SoC\ClassReports\SoC\CR5\CR5.xpr
+# Log file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5/vivado.log
+# Journal file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5/CR5.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/david_davis1/Box/SoC/FPro_files/mmio_sys_vanilla.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/david_davis1/Box/SoC/FPro_files/mmio_sys_vanilla.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/david_davis1/Box/SoC/fpga_mcs_sv_src/hdl/sys/top/mcs_top_sampler.sv C:/Users/david_davis1/Box/SoC/fpga_mcs_sv_src/hdl/sys/subsys/mmio_sys_sampler.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/david_davis1/Box/SoC/fpga_mcs_sv_src/hdl/mmio/i2c/i2c_master.sv C:/Users/david_davis1/Box/SoC/fpga_mcs_sv_src/hdl/mmio/led_mux/chu_led_mux_core.sv C:/Users/david_davis1/Box/SoC/fpga_mcs_sv_src/hdl/mmio/led_mux/led_mux8.sv C:/Users/david_davis1/Box/SoC/fpga_mcs_sv_src/hdl/mmio/i2c/chu_i2c_core.sv}
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR5/CR5xsa.xsa

@@ -1,0 +1,25 @@
+2021-12-01T15:41:50.236043400255-15:41:50 **** Incremental Build of configuration Debug for project CR5app ****
+000-make all 
+000-'Building file: ../src/main_sampler_test.cpp'
+000-'Invoking: MicroBlaze g++ compiler'
+000-mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_sampler_test.o" -IC:/Users/david_davis1/workspace/CR5/export/CR5/sw/CR5/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_sampler_test.d" -MT"src/main_sampler_test.o" -o "src/main_sampler_test.o" "../src/main_sampler_test.cpp"
+000-../src/main_sampler_test.cpp: In function 'int main()':
+000/CR5app/src/main_sampler_test.cpp167-1-1'units' is used uninitialized in this function [-Wuninitialized]1-../src/main_sampler_test.cpp:167:15: warning: 'units' is used uninitialized in this function [-Wuninitialized]
+000-  167 |    displayTemp(tmp, &sseg, &sw, units);
+000-      |    ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+000-'Finished building: ../src/main_sampler_test.cpp'
+000-' '
+000-'Building target: CR5app.elf'
+000-'Invoking: MicroBlaze g++ linker'
+000-mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/david_davis1/workspace/CR5/export/CR5/sw/CR5/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CR5app.elf"  ./src/adsr_core.o ./src/chu_init.o ./src/ddfs_core.o ./src/gpio_cores.o ./src/i2c_core.o ./src/main_sampler_test.o ./src/ps2_core.o ./src/spi_core.o ./src/sseg_core.o ./src/timer_core.o ./src/uart_core.o ./src/xadc_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+000-'Finished building target: CR5app.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size CR5app.elf  |tee "CR5app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  27120	    284	   3236	  30640	   77b0	CR5app.elf
+000-'Finished building: CR5app.elf.size'
+000-' '
+00255-
+15:41:51 Build Finished (took 974ms)
+

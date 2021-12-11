@@ -1,0 +1,927 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 6368
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Nov 18 17:39:30 CST 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/XilinxVitis/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/XilinxVitis/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	david_davis1
+User home directory: C:/Users/david_davis1
+User working directory: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/XilinxVitis/Vivado
+HDI_APPROOT: C:/XilinxVitis/Vivado/2021.1
+RDI_DATADIR: C:/XilinxVitis/Vivado/2021.1/data
+RDI_BINDIR: C:/XilinxVitis/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/david_davis1/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/david_davis1/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/david_davis1/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/XilinxVitis/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/vivado.log
+Vivado journal file: 	C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/vivado.jou
+Engine tmp dir: 	C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/.Xil/Vivado-6368-ROG-112-18
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/XilinxVitis/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/XilinxVitis/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/XilinxVitis/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/XilinxVitis/Vivado/2021.1
+XILINX_SDK: C:/XilinxVitis/Vitis/2021.1
+XILINX_VITIS: C:/XilinxVitis/Vitis/2021.1
+XILINX_VIVADO: C:/XilinxVitis/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/XilinxVitis/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,273 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: #----------------------------------------------------------- # Vivado v2021.1 (64-bit) # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021 # Start of session at: Thu Nov 18 17:39:11 2021 # Process ID: 6368 # Current directory: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3 # Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14476 C:\Users\david_davis1\Box\SoC\ClassReports\SoC\CR3\CR3\CR3.xpr # Log file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/vivado.log # Journal file: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3\vivado.jou #----------------------------------------------------------- 
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 109 MB (+111414kb) [00:00:05]
+// [Engine Memory]: 1,273 MB (+1183693kb) [00:00:05]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\david_davis1\Box\SoC\ClassReports\SoC\CR3\CR3\CR3.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 56 MB. Current time: 11/18/21, 5:39:31 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 56 MB. Current time: 11/18/21, 5:39:57 PM CST
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 56 MB. Current time: 11/18/21, 5:40:27 PM CST
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 56 MB. Current time: 11/18/21, 5:40:57 PM CST
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 56 MB. Current time: 11/18/21, 5:41:57 PM CST
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 56 MB. Current time: 11/18/21, 5:42:27 PM CST
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 56 MB. Current time: 11/18/21, 5:42:57 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 118 MB (+4156kb) [00:04:01]
+// [Engine Memory]: 1,342 MB (+5358kb) [00:04:01]
+// WARNING: HEventQueue.dispatchEvent() is taking  10750 ms.
+// Tcl Message: open_project C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/XilinxVitis/Vivado/2021.1/data/ip'. INFO: [Device 21-403] Loading part xc7a100tcsg324-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,390 MB. GUI used memory: 74 MB. Current time: 11/18/21, 5:43:23 PM CST
+// Project name: CR3; location: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:03:58 . Memory (MB): peak = 1522.941 ; gain = 216.895 
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 127 MB (+2728kb) [00:04:05]
+// a (cs): Critical Messages: addNotify
+// [Engine Memory]: 1,419 MB (+10565kb) [00:04:06]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 37508 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 37663 ms. Increasing delay to 112989 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 13613 ms. Increasing delay to 4000 ms.
+// [GUI Memory]: 134 MB (+655kb) [00:05:05]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 145 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2); // D
+// [GUI Memory]: 146 MB (+6548kb) [00:06:36]
+// [GUI Memory]: 155 MB (+1091kb) [00:06:36]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 173 ms. Decreasing delay to 2173 ms.
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 16 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'xadc_fpro'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: REPORT_IP_STATUS_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,464 MB. GUI used memory: 87 MB. Current time: 11/18/21, 5:46:26 PM CST
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cpu'... INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'cpu'. Target already exists and is up to date. 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file c:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.gen/sources_1/ip/cpu_3/bd_0/hw_handoff/cpu.hwh Generated Block Design Tcl file c:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.gen/sources_1/ip/cpu_3/bd_0/hw_handoff/cpu_bd.tcl Generated Hardware Definition File c:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.gen/sources_1/ip/cpu_3/bd_0/synth/cpu.hwdef 
+// TclEventType: RUN_LAUNCH
+// WARNING: HEventQueue.dispatchEvent() is taking  2711 ms.
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 18 17:46:38 2021] Launched synth_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/synth_1/runme.log [Thu Nov 18 17:46:38 2021] Launched impl_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 1574.996 ; gain = 52.055 
+// Elapsed time: 23 seconds
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,487 MB. GUI used memory: 87 MB. Current time: 11/18/21, 5:46:41 PM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2); // D
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), gpi_slot3 : chu_gpi (chu_gpi.sv)]", 10, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1289 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1291 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1452 ms. Increasing delay to 4356 ms.
+// [Engine Memory]: 1,493 MB (+3146kb) [00:08:48]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,509 MB. GUI used memory: 92 MB. Current time: 11/18/21, 5:48:26 PM CST
+// Elapsed time: 108 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1315 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1262 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 3); // m
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bz (cs):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,688 MB. GUI used memory: 96 MB. Current time: 11/18/21, 5:50:21 PM CST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,190 MB. GUI used memory: 95 MB. Current time: 11/18/21, 5:50:29 PM CST
+// [Engine Memory]: 2,190 MB (+652702kb) [00:11:09]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 171 MB (+8390kb) [00:11:10]
+// [Engine Memory]: 2,321 MB (+22317kb) [00:11:10]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1914 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1611.281 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2021.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.259 . Memory (MB): peak = 2315.656 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.259 . Memory (MB): peak = 2315.656 ; gain = 0.000 
+// Tcl Message: Generating merged BMM file for the design top 'mcs_top_vanilla'... 
+// Tcl Message: INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.gen/sources_1/ip/cpu_3/bd_0/ip/ip_0/data/mb_bootloop_le.elf  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2315.656 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 167 instances were transformed.   LUT6_2 => LUT6_2 (LUT5, LUT6): 79 instances   RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances   RAM64M => RAM64M (RAMD64E(x4)): 24 instances  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 2434.844 ; gain = 824.262 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 182 MB (+2512kb) [00:11:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  1656 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dU' command handler elapsed time: 19 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Open Implemented Design"); // bz
+// Elapsed time: 132 seconds
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl Command: 'get_property pfm_name [get_files -all {}]'
+// g (cs): Export Hardware Platform: addNotify
+// Tcl Message: ERROR: [Common 17-55] 'get_property' expects at least one object. Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object. 
+selectButton("NEXT", "Next >"); // JButton
+selectRadioButton(PAResourceEtoH.ExportPlatformWizard_FIXED_POST_IMPL, "Include bitstream. This platform includes the complete hardware implementation and bitstream, in addition to the hardware specification for software tools."); // b
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 13 seconds
+setText(PAResourceEtoH.ExportPlatformWizard_OUTPUT_XSA_NAME, "CR3xsafile", true); // aa
+selectButton("NEXT", "Next >"); // JButton
+selectButton("FINISH", "Finish"); // JButton
+// 'n' command handler elapsed time: 22 seconds
+dismissDialog("Export Hardware Platform"); // g
+// bz (cs):  Export Hardware Platform : addNotify
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3xsafile.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3xsafile.xsa ... 
+// Tcl Message: INFO: [Hsi 55-2053] elapsed time for repository (C:/XilinxVitis/Vivado/2021.1/data/embeddedsw) loading 1 seconds 
+// Tcl Message: INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3xsafile.xsa 
+// [Engine Memory]: 2,510 MB (+76172kb) [00:13:59]
+dismissDialog("Export Hardware Platform"); // bz
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_FLOORPLANNING, "Floorplanning"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IO_PLANNING, "I/O Planning"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // ak
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ak
+// HMemoryUtils.trashcanNow. Engine heap size: 2,510 MB. GUI used memory: 134 MB. Current time: 11/18/21, 5:53:21 PM CST
+selectMenuItem((HResource) null, "Launch Vitis IDE"); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+// bz (cs):  Launch Vitis IDE : addNotify
+// 'X' command handler elapsed time: 17 seconds
+// Elapsed time: 17 seconds
+dismissDialog("Launch Vitis IDE"); // bz
+// [GUI Memory]: 193 MB (+2385kb) [00:18:41]
+// Elapsed time: 622 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1325 ms.
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+// Elapsed time: 170 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 60 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 3); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1190 ms.
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv)]", 13, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv)]", 13, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1196 ms.
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv), timer : timer_hw3 (timer_hw3.sv)]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv), timer : timer_hw3 (timer_hw3.sv)]", 14, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1173 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv), led_blinker : led_blinker (led_blinker.sv)]", 15, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv), led_blinker : led_blinker (led_blinker.sv)]", 15, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1182 ms.
+// Elapsed time: 28 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "block.sv", 4); // m
+// Elapsed time: 134 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1207 ms.
+// Elapsed time: 22 seconds
+selectCodeEditor("led_core.sv", 145, 216); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+// Elapsed time: 94 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 95 seconds
+dismissDialog("Launch Runs"); // cD
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 18 18:14:30 2021] Launched synth_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/synth_1/runme.log [Thu Nov 18 18:14:30 2021] Launched impl_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 211 seconds
+selectCodeEditor("led_core.sv", 295, 147); // bP
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 13 seconds
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+// Elapsed time: 20 seconds
+selectCodeEditor("led_core.sv", 248, 124); // bP
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Elapsed time: 12 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl Command: 'get_property pfm_name [get_files -all {}]'
+// g (cs): Export Hardware Platform: addNotify
+// Tcl Message: ERROR: [Common 17-55] 'get_property' expects at least one object. Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object. 
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+setText(PAResourceEtoH.ExportPlatformWizard_OUTPUT_XSA_NAME, "CR3xsa", true); // aa
+selectButton("NEXT", "Next >"); // JButton
+selectButton("FINISH", "Finish"); // JButton
+// 'n' command handler elapsed time: 7 seconds
+dismissDialog("Export Hardware Platform"); // g
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3xsa.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3xsa.xsa ... 
+// bz (cs):  Export Hardware Platform : addNotify
+// Tcl Message: INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3xsa.xsa 
+dismissDialog("Export Hardware Platform"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 2,545 MB. GUI used memory: 141 MB. Current time: 11/18/21, 6:19:07 PM CST
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_FLOORPLANNING, "Floorplanning"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IO_PLANNING, "I/O Planning"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // ak
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ak
+selectMenuItem((HResource) null, "Launch Vitis IDE"); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+// bz (cs):  Launch Vitis IDE : addNotify
+// 'X' command handler elapsed time: 5 seconds
+dismissDialog("Launch Vitis IDE"); // bz
+// Elapsed time: 827 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11); // D
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 209 seconds
+selectCodeEditor("mmio_sys_vanilla.sv", 653, 113); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led1 : top (top.sv)]", 14); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led1 : top (top.sv), led_blinker : led_blinker (led_blinker.sv)]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led1 : top (top.sv), led_blinker : led_blinker (led_blinker.sv)]", 16, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1365 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1212 ms.
+selectCodeEditor("block.sv", 189, 348); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 148 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_blinker.sv", 3); // m
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "block.sv", 4); // m
+selectCodeEditor("block.sv", 259, 337); // bP
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv)]", 13, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv)]", 13, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1197 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "block.sv", 4); // m
+selectCodeEditor("block.sv", 189, 248); // bP
+selectCodeEditor("block.sv", 180, 366); // bP
+selectCodeEditor("block.sv", 180, 366, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("block.sv", 107, 335); // bP
+selectCodeEditor("block.sv", 107, 335, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("block.sv", 128, 330); // bP
+selectCodeEditor("block.sv", 128, 330); // bP
+selectCodeEditor("block.sv", 128, 330, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("block.sv", 262, 274); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // cD
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 204 MB (+1248kb) [01:01:50]
+// Tcl Message: [Thu Nov 18 18:41:11 2021] Launched synth_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/synth_1/runme.log [Thu Nov 18 18:41:11 2021] Launched impl_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 270 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl Command: 'get_property pfm_name [get_files -all {}]'
+// g (cs): Export Hardware Platform: addNotify
+// Tcl Message: ERROR: [Common 17-55] 'get_property' expects at least one object. Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object. 
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("FINISH", "Finish"); // JButton
+// 'n' command handler elapsed time: 6 seconds
+dismissDialog("Export Hardware Platform"); // g
+// bz (cs):  Export Hardware Platform : addNotify
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/mcs_top_vanilla.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/mcs_top_vanilla.xsa ... 
+// Tcl Message: INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/mcs_top_vanilla.xsa 
+dismissDialog("Export Hardware Platform"); // bz
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_FLOORPLANNING, "Floorplanning"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IO_PLANNING, "I/O Planning"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // ak
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ak
+selectMenuItem((HResource) null, "Launch Vitis IDE"); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+// bz (cs):  Launch Vitis IDE : addNotify
+// 'X' command handler elapsed time: 15 seconds
+// Elapsed time: 15 seconds
+dismissDialog("Launch Vitis IDE"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 2,565 MB. GUI used memory: 135 MB. Current time: 11/18/21, 6:49:07 PM CST
+// Elapsed time: 1302 seconds
+selectCodeEditor("block.sv", 612, 27); // bP
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11); // D
+// Elapsed time: 28 seconds
+selectCodeEditor("block.sv", 71, 227); // bP
+selectCodeEditor("block.sv", 71, 227, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "block.sv", 'v'); // bP
+selectCodeEditor("block.sv", 314, 13); // bP
+selectCodeEditor("block.sv", 72, 194); // bP
+selectCodeEditor("block.sv", 72, 194, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "block.sv", 'v'); // bP
+selectCodeEditor("block.sv", 270, 47); // bP
+selectCodeEditor("block.sv", 66, 312); // bP
+selectCodeEditor("block.sv", 66, 312); // bP
+selectCodeEditor("block.sv", 66, 312, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "block.sv", 'v'); // bP
+selectCodeEditor("block.sv", 292, 33); // bP
+selectCodeEditor("block.sv", 69, 336); // bP
+selectCodeEditor("block.sv", 69, 336, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "block.sv", 'v'); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 16 seconds
+dismissDialog("Launch Runs"); // cD
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 18 19:09:32 2021] Launched synth_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/synth_1/runme.log [Thu Nov 18 19:09:32 2021] Launched impl_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 258 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 32, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cs):  Open Hardware Manager : addNotify
+// Tcl Message: open_hw_manager 
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1256 ms.
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// 'Q' command handler elapsed time: 4 seconds
+dismissDialog("Open Hardware Manager"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // an
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2021.1   ****** Build date   : May 26 2021-12:32:33     **** Build number : 2021.1.1622050353       ** Copyright 2017-2021 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2644.410 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  5462 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BA3EA 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,145 MB. GUI used memory: 151 MB. Current time: 11/18/21, 7:14:08 PM CST
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 4235.434 ; gain = 1591.023 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/impl_1/mcs_top_vanilla.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 4,145 MB (+1582698kb) [01:34:47]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 11 seconds
+dismissDialog("Auto Connect"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/impl_1/mcs_top_vanilla.bit} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 4,164 MB. GUI used memory: 139 MB. Current time: 11/18/21, 7:15:42 PM CST
+// Elapsed time: 98 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_blinker.sv", 2); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1203 ms.
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+selectCodeEditor("mcs_top_vanilla.sv", 283, 182); // bP
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 39 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), gpo_slot2 : chu_gpo (chu_gpo.sv)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), gpo_slot2 : chu_gpo (chu_gpo.sv)]", 9, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1432 ms.
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1191 ms.
+// Elapsed time: 15 seconds
+selectCodeEditor("led_core.sv", 106, 398); // bP
+selectCodeEditor("led_core.sv", 104, 418); // bP
+selectCodeEditor("led_core.sv", 106, 436); // bP
+selectCodeEditor("led_core.sv", 108, 451); // bP
+selectCodeEditor("led_core.sv", 103, 436); // bP
+selectCodeEditor("led_core.sv", 103, 421); // bP
+selectCodeEditor("led_core.sv", 105, 405); // bP
+selectCodeEditor("led_core.sv", 344, 277); // bP
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv)]", 11); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv), led_blinker : led_blinker (led_blinker.sv)]", 15, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv), led0 : top (top.sv), led_blinker : led_blinker (led_blinker.sv)]", 15, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1287 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_blinker.sv", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 4); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_vanilla (mcs_top_vanilla.sv), mmio_unit : mmio_sys_vanilla (mmio_sys_vanilla.sv), led_slot4 : LED_core (led_core.sv), ledblinker : block (block.sv)]", 12, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1203 ms.
+selectCodeEditor("block.sv", 129, 299); // bP
+selectCodeEditor("block.sv", 129, 299, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("block.sv", 113, 417); // bP
+selectCodeEditor("block.sv", 113, 417, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("block.sv", 116, 336); // bP
+selectCodeEditor("block.sv", 116, 336, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("block.sv", 105, 456); // bP
+selectCodeEditor("block.sv", 105, 456, false, false, false, false, true); // bP - Double Click
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 4); // m
+// Elapsed time: 31 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, chu_io_map.svh]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, chu_io_map.svh]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1197 ms.
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "block.sv", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 4); // m
+selectCodeEditor("led_core.sv", 145, 149); // bP
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_gpo.sv", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_gpo.sv", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "block.sv", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_io_map.svh", 6); // m
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_gpo.sv", 3); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "block.sv", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_io_map.svh", 5); // m
+// Elapsed time: 28 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+// Elapsed time: 18 seconds
+selectCodeEditor("mcs_top_vanilla.sv", 521, 179); // bP
+// Elapsed time: 30 seconds
+selectCodeEditor("mcs_top_vanilla.sv", 286, 182); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Common 17-344] 'reset_runs' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// 'cA' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Launch Runs"); // cD
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cD
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 18 19:27:03 2021] Launched synth_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/synth_1/runme.log [Thu Nov 18 19:27:03 2021] Launched impl_1... Run output will be captured here: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/CR3.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aH (cs): Feedback Request: addNotify
+// Elapsed time: 295 seconds
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_NO, "No"); // a
+dismissDialog("Feedback Request"); // aH
+selectButton("OptionPane.button", "OK"); // JButton
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl Command: 'get_property pfm_name [get_files -all {}]'
+// g (cs): Export Hardware Platform: addNotify
+// Tcl Message: ERROR: [Common 17-55] 'get_property' expects at least one object. Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object. 
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("OptionPane.button", "Yes"); // JButton
+selectButton("FINISH", "Finish"); // JButton
+// 'n' command handler elapsed time: 7 seconds
+dismissDialog("Export Hardware Platform"); // g
+// HMemoryUtils.trashcanNow. Engine heap size: 4,283 MB. GUI used memory: 146 MB. Current time: 11/18/21, 7:32:12 PM CST
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/mcs_top_vanilla.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/mcs_top_vanilla.xsa ... 
+// bz (cs):  Export Hardware Platform : addNotify
+// Tcl Message: INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/david_davis1/Box/SoC/ClassReports/SoC/CR3/CR3/mcs_top_vanilla.xsa 
+dismissDialog("Export Hardware Platform"); // bz
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ak
+selectMenuItem((HResource) null, "Launch Vitis IDE"); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+// bz (cs):  Launch Vitis IDE : addNotify
+// 'X' command handler elapsed time: 16 seconds
+// Elapsed time: 16 seconds
+dismissDialog("Launch Vitis IDE"); // bz
+// Elapsed time: 368 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 3); // m
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mcs_top_vanilla.sv", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mmio_sys_vanilla.sv", 1); // m
+// Elapsed time: 15 seconds
+selectCodeEditor("mmio_sys_vanilla.sv", 405, 300); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_core.sv", 3); // m
+// Elapsed time: 23 seconds
+selectCodeEditor("led_core.sv", 120, 438); // bP
+selectCodeEditor("led_core.sv", 123, 438); // bP
+selectCodeEditor("led_core.sv", 248, 403); // bP
+selectCodeEditor("led_core.sv", 124, 454); // bP
+selectCodeEditor("led_core.sv", 151, 446); // bP
+selectCodeEditor("led_core.sv", 124, 467); // bP
+selectCodeEditor("led_core.sv", 124, 467); // bP
+selectCodeEditor("led_core.sv", 125, 484); // bP
+selectCodeEditor("led_core.sv", 323, 451); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 4,350 MB. GUI used memory: 146 MB. Current time: 11/18/21, 8:02:13 PM CST
