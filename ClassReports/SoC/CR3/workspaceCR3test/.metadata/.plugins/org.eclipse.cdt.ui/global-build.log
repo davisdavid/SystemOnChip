@@ -1,0 +1,20 @@
+Nothing to build in platform 'test'
+
+16:02:21 **** Incremental Build of configuration Debug for project testapp ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -IC:/Users/david_davis1/workspaceCR3test/test/export/test/sw/test/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: testapp.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/david_davis1/workspaceCR3test/test/export/test/sw/test/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "testapp.elf"  ./src/blinker.o ./src/chu_init.o ./src/gpio_cores.o ./src/main_vanilla_test.o ./src/timer_core.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: testapp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testapp.elf  |tee "testapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3900	    284	   3152	   7336	   1ca8	testapp.elf
+'Finished building: testapp.elf.size'
+' '

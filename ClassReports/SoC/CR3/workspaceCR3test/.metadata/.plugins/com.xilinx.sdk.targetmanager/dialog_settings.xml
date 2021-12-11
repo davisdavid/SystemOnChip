@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="testapp_system-bitFile" value="${project_loc:testapp}/_ide/bitstream/testxsa.bit"/>
+	<item key="testapp_system-bmmFile" value="${project_loc:testapp}/_ide/bitstream/testxsa.mmi"/>
+	<item key="testapp_system-target" value="Local"/>
+	<item key="testapp_system-device" value="Auto Detect"/>
+	<item key="testapp_system-partial_bit" value="false"/>
+	<item key="testapp_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="testapp_system"/>
+	<item key="testapp_system-microblaze_I-initElf" value="C:\Users\david_davis1\workspaceCR3test\testapp\Debug\testapp.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys4DDR 210292A4BA3EA&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys4DDR-210292A4BA3EA-13631093-0&quot;}}]}"/>
+</section>
